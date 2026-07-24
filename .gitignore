@@ -32,3 +32,4 @@ train_log*.txt
 backend/model_registry/models/*/best.pt
 *.pt
 !config.json
+.claude/
