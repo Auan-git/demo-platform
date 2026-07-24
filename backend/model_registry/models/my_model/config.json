@@ -1,0 +1,13 @@
+{
+  "name": "BUU-SARD Detector",
+  "type": "detection",
+  "framework": "ultralytics",
+  "model_file": "best.pt",
+  "input_size": [640, 640],
+  "classes": ["people", "house", "clothing", "bag", "dog"],
+  "default_conf": 0.25,
+  "default_iou": 0.45,
+  "device": "cuda",
+  "dataset": "BUU-SARD",
+  "base_model": "yolov11"
+}

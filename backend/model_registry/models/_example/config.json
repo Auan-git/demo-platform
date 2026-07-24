@@ -1,0 +1,12 @@
+{
+  "name": "Example Detection Model",
+  "description": "Place your .pt file here and update this config. See README for setup instructions.",
+  "type": "detection",
+  "framework": "ultralytics",
+  "model_file": "best.pt",
+  "input_size": [640, 640],
+  "classes": ["class_0", "class_1"],
+  "default_conf": 0.25,
+  "default_iou": 0.45,
+  "device": "auto"
+}

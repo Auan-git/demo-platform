@@ -1,0 +1,17 @@
+{
+  "name": "a",
+  "description": "",
+  "type": "detection",
+  "framework": "ultralytics",
+  "model_file": "epoch180.pt",
+  "input_size": [
+    640,
+    640
+  ],
+  "classes": [],
+  "default_conf": 0.25,
+  "default_iou": 0.45,
+  "device": "cuda",
+  "dataset": "BUU-SARD Detector",
+  "base_model": "BUU-SARD Detector"
+}
